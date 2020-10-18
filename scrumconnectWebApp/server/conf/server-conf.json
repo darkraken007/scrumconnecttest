@@ -1,0 +1,14 @@
+{
+    "clientID":"cicdmgrhttp_b81a5f53e8b64cffaa39d26ffaeea438",
+    "clientidsecretbase64":"Y2ljZG1ncmh0dHBfYjgxYTVmNTNlOGI2NGNmZmFhMzlkMjZmZmFlZWE0Mzg6eHZSanc5UnpCUlY=",
+    "app_url" :"http://jenkins.oraclecorp.com/",
+    "oam_endpoint":"https://oauth-i.oracle.com/ms_oauth/oauth2/endpoints/oauthservice/",
+    "client_scope":"cicdmgrhttp.cicd.mgr.public.http",
+    "clusters":[
+        {"id":"cisystem-jenkins-master:latest","url":"https://ci-cloud.us.oracle.com/cisystem-app/api/"},
+        {"id":"fa-cisystem-jenkins-master:latest","url":"https://fa-ci-cloud.appoci.oraclecorp.com/cisystem-app/api/"}
+    ],
+    "port":80,
+    "logout_url":"https://login.oracle.com/sso/logout",
+    "carson_api_v2":"http://carson.oraclecorp.com:3000/api/v2/"
+}
